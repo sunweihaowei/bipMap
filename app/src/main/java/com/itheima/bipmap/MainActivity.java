@@ -19,7 +19,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class MainActivity extends AppCompatActivity {
-
+    //网络可能获取不到，所以要刷新
     private ImageView iv;
     private Handler handler=new Handler(  ){
         @Override
